@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-05 09:33:14 PM"/>
+        <attribute name="created" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA5OjI2OjI2IFBNOzIwOTY="/>
+        <attribute name="edited" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA5OjI2OjU0IFBNOzE7VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA4OjM0OjU2IFBNOzEtbWFzYWxhLmZwcmc7NTYxNA=="/>
+        <attribute name="edited" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA5OjMzOjE0IFBNOzE7MjE5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, max, min" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="max" expression="a"/>
+            <assign variable="min" expression="a"/>
+            <if expression="a&gt;b &amp;&amp; a&gt;c">
+                <then>
+                    <assign variable="max" expression="a"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="b&gt;a &amp;&amp; b&gt;c">
+                <then>
+                    <assign variable="max" expression="b"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c&gt;b &amp;&amp; c&gt;a">
+                <then>
+                    <assign variable="max" expression="c"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a&lt;b &amp;&amp; a&lt;c">
+                <then>
+                    <assign variable="min" expression="a"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="b&lt;a &amp;&amp; b&lt;c">
+                <then>
+                    <assign variable="min" expression="b"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c&lt;b &amp;&amp; c&lt;a">
+                <then>
+                    <assign variable="min" expression="c"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;eng kattasi=&quot; &amp; max" newline="True"/>
+            <output expression="&quot;eng kichigi=&quot; &amp; min" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

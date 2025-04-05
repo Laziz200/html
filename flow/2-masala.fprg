@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-05 09:25:02 PM"/>
+        <attribute name="created" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA4OjM0OjU2IFBNOzIwOTc="/>
+        <attribute name="edited" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA5OjI1OjAyIFBNOzI7MjE5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, a, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;uch xonali son kiriting:&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n&gt;99 &amp;&amp; n&lt;1000">
+                <then>
+                    <assign variable="i" expression="n%100"/>
+                    <while expression="i!=0">
+                        <assign variable="a" expression="i%10"/>
+                        <assign variable="i" expression="i/10"/>
+                        <assign variable="d" expression="a*i"/>
+                        <if expression="d%2==0 &amp;&amp; d%5==0">
+                            <then>
+                                <output expression="&quot;A&quot;" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                        <if expression="d%3==0 &amp;&amp; d%7==0">
+                            <then>
+                                <output expression="&quot;B&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Bolinmaydi&quot;" newline="True"/>
+                            </else>
+                        </if>
+                        <assign variable="i" expression="0"/>
+                    </while>
+                </then>
+                <else>
+                    <output expression="&quot;siz uch xonali son kiritmadingiz!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

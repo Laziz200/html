@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-05 09:36:30 PM"/>
+        <attribute name="created" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA5OjI2OjI2IFBNOzIwOTY="/>
+        <attribute name="edited" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA5OjI2OjU0IFBNOzE7VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA4OjM0OjU2IFBNOzEtbWFzYWxhLmZwcmc7NTYxNA=="/>
+        <attribute name="edited" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA1OzA5OjM2OjMwIFBNOzI7MjIwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <output expression="&quot;yoshingizni kiriting:&quot;" newline="True"/>
+            <input variable="age"/>
+            <if expression="age&gt;=18">
+                <then>
+                    <output expression="&quot;passport olishingiz mumkin&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;passport olishga hali yoshlik qilasiz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
