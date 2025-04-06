@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-06 09:50:54 AM"/>
+        <attribute name="created" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA2OzA5OjQ3OjMxIEFNOzIwODE="/>
+        <attribute name="edited" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA2OzA5OjUwOjU0IEFNOzE7MjE4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n&gt;0">
+                <then>
+                    <output expression="&quot;+17&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="n&lt;0">
+                <then>
+                    <output expression="&quot;-10&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="n==0">
+                <then>
+                    <output expression="&quot;7&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

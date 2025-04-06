@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-06 09:52:46 AM"/>
+        <attribute name="created" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA2OzA5OjQ3OjMxIEFNOzIwODE="/>
+        <attribute name="edited" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA2OzA5OjUyOjQ2IEFNOzI7MjE5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <if expression="i%2==0">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-06 10:02:01 AM"/>
+        <attribute name="created" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA2OzA5OjQ3OjMxIEFNOzIwODE="/>
+        <attribute name="edited" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA2OzEwOjAyOjAxIEFNOzQ7MjE3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, sum" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="sum" expression="0"/>
+            <while expression="a&lt;=b">
+                <if expression="a%7==0 &amp;&amp; a%2==0">
+                    <then>
+                        <assign variable="sum" expression="sum+a"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="a" expression="a+1"/>
+            </while>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

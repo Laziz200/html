@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="10-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-06 10:03:50 AM"/>
+        <attribute name="created" value="VXNlcjtMQVpJWjsyMDI1LTAzLTI3OzA5OjI4OjA2IEFNOzIwODQ="/>
+        <attribute name="edited" value="VXNlcjtMQVpJWjsyMDI1LTA0LTA2OzEwOjAzOjUwIEFNOzc7MjE4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <input variable="n"/>
+            <while expression="i&lt;=10">
+                <output expression="n &amp; &quot; x &quot; &amp; i &amp; &quot; = &quot; &amp; i*n" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
